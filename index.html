@@ -97,6 +97,25 @@
                 </form>
             </div>  
     </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+  <script>
+    function sendEmail(){
+        Email.send({
+            Host: "smtp.elasticemail.com",
+            Username: process.env.USERNAME,
+            Password: process.env.PASSWORD,
+            To: process.env.EMAIL_TO,
+            From: document.getElementById("email").value,
+            Subject: "New Puppy Inquiry",
+            Body: "Name: " + document.getElementById("name").value
+                + "<br> Email: " + document.getElementById("email").value
+                + "<br> Phone: " + document.getElementById("phone").value
+                + "<br> Message: " + document.getElementById("message").value
+        }).then(
+            message => alert(message)
+        );
+    }
+  </script>
 </body>
 
 <footer class="footer text-center">
