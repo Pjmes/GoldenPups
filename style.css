@@ -1,0 +1,109 @@
+
+.header{
+           
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    text-align: right;
+    margin: 0 150px;
+}
+#nav{
+    color: black;
+}
+#nav:hover{
+    color: white;
+}
+#nav:active{
+    color: gold;
+}
+
+hr{
+    position: relative;
+    margin-left: 150px;
+    width: 1600px;
+    border: 1px solid black;
+}
+
+.body-container{
+    align-content: center;
+}
+
+
+.dog-container{
+    background-image: url(images/dog-background-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    margin: 0 150px;
+}
+
+.parent-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#parent-image{
+    padding-right: 20px;
+}
+
+.puppy-container{
+    padding-bottom: 20px;    
+}
+
+.puppy-trio{
+    margin-top: 20px;
+}
+
+#puppy-image{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.form-container{
+    background-image: url(images/form-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50pxs;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    border-bottom: .25rem solid goldenrod;
+}
+.contact-form{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.form-group{
+    padding: 20px 20px;
+}
+
+#form-title{
+    font-weight: bold;
+}
+
+.btn{
+    width: min-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    margin-bottom: 20px;
+}
+
+.about{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+h1{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
